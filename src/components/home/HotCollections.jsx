@@ -112,7 +112,7 @@ const HotCollections = () => {
                       </div>
                       <div className="nft_coll_pp">
                         <div
-                          class="skeleton-box"
+                          className="skeleton-box"
                           style={{
                             width: "50px",
                             height: "50px",
@@ -125,14 +125,14 @@ const HotCollections = () => {
                         <Link to="/explore">
                           <h4>
                             <div
-                              class="skeleton-box"
+                              className="skeleton-box"
                               style={{ width: "100px", height: "20px" }}
                             ></div>
                           </h4>
                         </Link>
                         <span>
                           <div
-                            class="skeleton-box"
+                            className="skeleton-box"
                             style={{ width: "60px", height: "20px" }}
                           ></div>
                         </span>
