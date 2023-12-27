@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import AuthorImage from "../../images/author_thumbnail.jpg";
-import nftImage from "../../images/nftImage.jpg";
 import Axios from "axios";
 import Countdown from "../UI/Countdown";
 import Skeleton from "../UI/Skeleton";
@@ -16,7 +14,7 @@ const NewItems = () => {
 
     setNftData(requestedData.data);
   }
-  //  aaa
+
   const [nftData, setNftData] = useState([]);
   const skeletonDataArray = ["1", "2", "3", "4", "5", "6"];
 

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import AuthorImage from "../../images/author_thumbnail.jpg";
-import nftImage from "../../images/nftImage.jpg";
 import Axios from "axios";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -106,7 +104,7 @@ const HotCollections = () => {
                     <div className="nft_coll">
                       <div className="nft_wrap">
                         <div
-                          class="skeleton-box"
+                          className="skeleton-box"
                           style={{ width: "100%", height: "93%" }}
                         ></div>
                       </div>
