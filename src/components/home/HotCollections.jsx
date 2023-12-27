@@ -104,7 +104,7 @@ const HotCollections = () => {
                     <div className="nft_coll">
                       <div className="nft_wrap">
                         <div
-                          class="skeleton-box"
+                          className="skeleton-box"
                           style={{ width: "100%", height: "93%" }}
                         ></div>
                       </div>
